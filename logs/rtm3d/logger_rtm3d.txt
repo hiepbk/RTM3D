@@ -1,0 +1,36 @@
+2024-04-09 23:39:34,869: logger.py - info(), at Line 49:INFO:
+>>> Created a new logger
+2024-04-09 23:39:34,870: logger.py - info(), at Line 49:INFO:
+>>> configs: {'seed': 2020, 'saved_fn': 'rtm3d', 'root_dir': '../', 'arch': 'resnet_18', 'pretrained_path': None, 'head_conv': 64, 'hflip_prob': 0.0, 'use_left_cam_prob': 1.0, 'dynamic_sigma': False, 'no_val': False, 'num_samples': None, 'num_workers': 8, 'batch_size': 4, 'print_freq': 50, 'tensorboard_freq': 50, 'checkpoint_freq': 5, 'start_epoch': 1, 'num_epochs': 300, 'lr_type': 'multi_step', 'lr': 0.0002, 'minimum_lr': 1e-07, 'momentum': 0.949, 'weight_decay': 0.0, 'optimizer_type': 'adam', 'steps': [150, 180], 'world_size': -1, 'rank': -1, 'dist_url': 'tcp://127.0.0.1:29500', 'dist_backend': 'nccl', 'gpu_idx': 0, 'no_cuda': False, 'multiprocessing_distributed': False, 'evaluate': False, 'resume_path': None, 'K': 100, 'device': device(type='cuda', index=0), 'ngpus_per_node': 1, 'pin_memory': True, 'input_size': [384, 1280], 'hm_size': [96, 320], 'down_ratio': 4, 'max_objects': 50, 'num_classes': 3, 'num_vertexes': 8, 'num_center_offset': 2, 'num_vertexes_offset': 2, 'num_dimension': 3, 'num_rot': 8, 'num_depth': 1, 'num_wh': 2, 'heads': {'hm_mc': 3, 'hm_ver': 8, 'vercoor': 16, 'cenoff': 2, 'veroff': 2, 'dim': 3, 'rot': 8, 'depth': 1, 'wh': 2}, 'dataset_dir': '../dataset/kitti', 'checkpoints_dir': '../checkpoints/rtm3d', 'logs_dir': '../logs/rtm3d', 'distributed': False, 'subdivisions': 16, 'is_master_node': True}
+2024-04-09 23:39:37,425: logger.py - info(), at Line 49:INFO:
+number of trained parameters of the model: 16702957
+2024-04-09 23:39:37,425: logger.py - info(), at Line 49:INFO:
+>>> Loading dataset & getting dataloader...
+2024-04-09 23:39:37,427: logger.py - info(), at Line 49:INFO:
+number of batches in training set: 928
+2024-04-09 23:39:37,427: logger.py - info(), at Line 49:INFO:
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-
+2024-04-09 23:39:37,427: logger.py - info(), at Line 49:INFO:
+=================================== 1/300 ===================================
+2024-04-09 23:39:37,427: logger.py - info(), at Line 49:INFO:
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-
+2024-04-09 23:39:37,427: logger.py - info(), at Line 49:INFO:
+>>> Epoch: [1/300]
+2024-04-09 23:40:50,686: logger.py - info(), at Line 49:INFO:
+Train - Epoch: [1/300][ 49/928]	Time  1.429 ( 1.465)	Data  0.000 ( 0.027)	Loss 6.3778e+01 (6.3632e+01)
+2024-04-09 23:42:04,020: logger.py - info(), at Line 49:INFO:
+Train - Epoch: [1/300][ 99/928]	Time  1.488 ( 1.466)	Data  0.001 ( 0.014)	Loss 6.6654e+01 (6.1701e+01)
+2024-04-09 23:43:15,231: logger.py - info(), at Line 49:INFO:
+Train - Epoch: [1/300][149/928]	Time  1.402 ( 1.452)	Data  0.001 ( 0.009)	Loss 6.8607e+01 (5.8603e+01)
+2024-04-09 23:44:26,372: logger.py - info(), at Line 49:INFO:
+Train - Epoch: [1/300][199/928]	Time  1.447 ( 1.445)	Data  0.000 ( 0.007)	Loss 4.8054e+01 (5.8150e+01)
+2024-04-09 23:45:38,233: logger.py - info(), at Line 49:INFO:
+Train - Epoch: [1/300][249/928]	Time  1.398 ( 1.443)	Data  0.000 ( 0.006)	Loss 4.5943e+01 (5.6049e+01)
+2024-04-09 23:46:49,448: logger.py - info(), at Line 49:INFO:
+Train - Epoch: [1/300][299/928]	Time  1.444 ( 1.440)	Data  0.000 ( 0.005)	Loss 8.7446e+01 (5.5051e+01)
+2024-04-09 23:48:00,076: logger.py - info(), at Line 49:INFO:
+Train - Epoch: [1/300][349/928]	Time  1.382 ( 1.436)	Data  0.000 ( 0.004)	Loss 6.8397e+01 (5.4188e+01)
+2024-04-09 23:49:10,816: logger.py - info(), at Line 49:INFO:
+Train - Epoch: [1/300][399/928]	Time  1.414 ( 1.433)	Data  0.000 ( 0.004)	Loss 4.5312e+01 (5.3461e+01)
+2024-04-09 23:50:21,520: logger.py - info(), at Line 49:INFO:
+Train - Epoch: [1/300][449/928]	Time  1.421 ( 1.431)	Data  0.001 ( 0.003)	Loss 4.2209e+01 (5.2609e+01)
